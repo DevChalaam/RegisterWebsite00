@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Pattaya&family=Roboto+Condensed:wght@300&family=Sriracha&family=Young+Serif&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Kanit;
+}
+
+body {
+    background: black;
+}
+
+.main-contriner {
+    border: white 1px solid;
+    width: 540px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 160px;
+    border-radius: 20px;
+    background: white;
+    display: block;
+}
+
+.text-signup {
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+.email {
+    position: relative;
+    top: 28px;
+    left: 80px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.input-text {
+    width: 400px;
+    height: 40px;
+    margin-left: 70px;
+    margin-top: 30px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    border: gray 1px solid;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.4s;
+}
+
+.passwd {
+    position: relative;
+    top: 19px;
+    left: 80px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.input-password {
+    width: 400px;
+    height: 40px;
+    margin-left: 70px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    border: gray 1px solid;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+    transition: 0.4s;
+}
+
+.button-btn {
+    border: black 1px solid;
+    border-radius: 10px;
+    width: 300px;
+    height: 45px;
+    margin-top: 30px;
+    margin-left: 120px;
+    cursor: pointer;
+    color: white;
+    background: black;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+.button-btn:hover {
+    background: gainsboro;
+    color: black;
+    border: gainsboro 1px solid;
+}
+
+.keed {
+    font-size: 17px;
+    margin-top: 35px;
+    margin-left: 150px;
+    color: gainsboro;
+}
+
+.OR {
+    border: gray 1px solid;
+    border-radius: 5px;
+    color: gray;
+}
+
+.bxl-google {
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 170px;
+    margin-top: 20px;
+    border: red 1px solid;
+    border-radius: 50%;
+    color: red;
+    transition: 0.4s;
+}
+
+.bxl-facebook-circle {
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 65px;
+    border: blue 1px solid;
+    border-radius: 50%;
+    color: blue;
+    transition: 0.4s;
+}
+
+.bxl-twitter {
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 65px;
+    border: skyblue 1px solid;
+    border-radius: 50%;
+    color: skyblue;
+    transition: 0.4s;
+}
+
+@media screen and (max-width: 480px){
+    .main-contriner {
+        width: 450px;
+    }
+
+    .text-signup {
+        margin-left: 30px;
+    }
+
+    .email {
+        left: 45px;
+        font-size: 12.5px;
+    }
+
+    .input-text {
+        margin-left: 35px;
+        width: 380px;
+    }
+
+    .passwd {
+        left: 45px;
+        font-size: 12.5px;
+    }
+
+    .input-password {
+        margin-left: 35px;
+        width: 380px;
+    }
+
+    .button-btn {
+        margin-left: 85px;
+    }
+
+    .keed {
+        display: block;
+        margin-left: 100px;
+    }
+
+    .bxl-google {
+        margin-left: 125px;
+    }
+}
